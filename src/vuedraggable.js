@@ -439,6 +439,7 @@ const draggableComponent = {
     },
 
     onDragStart(evt) {
+      console.log({ondragstartevent: evt});
       if (evt.items && evt.items.length) {
         this.doDragStartList(evt);
       } else {
