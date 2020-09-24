@@ -561,6 +561,7 @@ const draggableComponent = {
     },
 
     doDragUpdateList(evt) {
+      console.log("ciao");
       evt.items.forEach((item, index) => {
         const c = this.context[index];
         removeNode(item);
