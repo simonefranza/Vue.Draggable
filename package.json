@@ -31,7 +31,7 @@
     "nested"
   ],
   "dependencies": {
-    "sortablejs": "git://github.com/simonefranza/Sortable.git#master"
+    "sortablejs": "^1.12.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.12.1",
