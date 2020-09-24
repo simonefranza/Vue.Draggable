@@ -4246,6 +4246,10 @@ var draggableComponent = {
       });
     },
     onDragUpdate: function onDragUpdate(evt) {
+      helper["b" /* console */].log({
+        dragupdateEv: evt
+      });
+
       if (Array.isArray(this.context)) {
         this.doDragUpdateList(evt);
       } else {
@@ -4270,7 +4274,6 @@ var draggableComponent = {
     doDragUpdateList: function doDragUpdateList(evt) {
       var _this7 = this;
 
-      helper["b" /* console */].log("ciao");
       evt.items.forEach(function (item, index) {
         var c = _this7.context[index];
         Object(helper["d" /* removeNode */])(item);
