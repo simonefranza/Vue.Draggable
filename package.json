@@ -31,7 +31,7 @@
     "nested"
   ],
   "dependencies": {
-    "sortablejs": "file:../Sortable/packages/sortablejs/"
+    "sortablejs": "file:/Users/simo/Desktop/Simo/Coding/Web/Vue/git/Sortable/packages/sortablejs"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.12.1",
